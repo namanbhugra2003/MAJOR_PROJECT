@@ -1,8 +1,10 @@
 const mongoose=require("mongoose");
+const dbgr=require("debug")("development:mongoose_connect");
 mongoose
 .connect("mongodb://127.0.0.1:27017/Major_Project")
 .then(function(){
-console. log("Database_connected");})
+dbgr("hello ji")    ;
+})
 .catch(function(err){
 console. log(err);})
 
