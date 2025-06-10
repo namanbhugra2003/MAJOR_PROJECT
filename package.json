@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "config": "^4.0.0",
     "cookie-parser": "^1.4.7",
     "debug": "^4.4.1",
     "ejs": "^3.1.10",
